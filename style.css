@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    color: white;
+    margin: 0;
+    font-family: 'Roboto Mono';
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.694);
+    width: 600px;
+    height: 450px;
+    margin: 60px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.container h1 {
+    padding-top: 20px;
+    font-size: 56px;
+}
+
+.container p {
+    font-size: 18px;
+}
+
+#btn {
+    border: 0 none;
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(20, 12, 64);
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Roboto mono';
+    box-shadow: 0 0 3px rgb(178, 178, 178);
+}
+
+#btn:hover {
+    background-color: rgb(0, 0, 109);
+}
+
+#answer {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#answerNum {
+    color: rgb(195, 215, 255);
+    font-size: 70px;
+    margin-top: 0;
+}
